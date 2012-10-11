@@ -1,0 +1,26 @@
+Robot
+		ID: Sim Model 5_R0
+				Sensor
+						ID: Honeywell HMC6343_S0
+						ID: Sparkfun Atomic IMU_S0
+						ID: Hokuyo URG Series_S0
+						ID: Garmin GPS Series_S0
+				Joint
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+				Actuator
+						ID: Motor_Joint_J1
+						ID: Motor_Joint_J2
+				Robot Component
+						ID: ID223
+						ID: ID2
+						ID: ID97
+						ID: ID186
+
+
+Obstacle

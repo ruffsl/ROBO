@@ -1,0 +1,20 @@
+Robot
+		ID: Sim Model 2_R0
+				Sensor
+						ID: Sparkfun Atomic IMU_S0
+						ID: Honeywell HMC6343_S0
+				Joint
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+				Actuator
+						ID: Motor_Joint_J0
+						ID: Motor_Joint_J1
+				Robot Component
+						ID: ID144
+						ID: ID2
+						ID: ID75
+
+
+Obstacle

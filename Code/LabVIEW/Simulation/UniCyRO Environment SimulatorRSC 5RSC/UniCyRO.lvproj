@@ -28,6 +28,14 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/Simulator/DC Motor Controller Simulator.lvclass"/>
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
+				<Item Name="Garmin GPS Series Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Garmin GPS Series/HAIOL/Simulator/Garmin GPS Series Simulator.lvclass"/>
+				<Item Name="Garmin GPS Series.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Garmin GPS Series/HAIOL/Garmin GPS Series.lvclass"/>
+				<Item Name="Hokuyo URG Series Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Hokuyo URG Series/HAIOL/Simulator/Hokuyo URG Series Simulator.lvclass"/>
+				<Item Name="Hokuyo URG Series.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Hokuyo URG Series/HAIOL/Hokuyo URG Series.lvclass"/>
+				<Item Name="Honeywell Compass HMC6343 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Simulator/Honeywell Compass HMC6343 Simulator.lvclass"/>
+				<Item Name="Honeywell Compass HMC6343.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Honeywell Compass HMC6343.lvclass"/>
+				<Item Name="Sparkfun Atomic IMU Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Sparkfun Atomic IMU/HAIOL/Simulator/Sparkfun Atomic IMU Simulator.lvclass"/>
+				<Item Name="Sparkfun Atomic IMU.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Sparkfun Atomic IMU/HAIOL/Sparkfun Atomic IMU.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

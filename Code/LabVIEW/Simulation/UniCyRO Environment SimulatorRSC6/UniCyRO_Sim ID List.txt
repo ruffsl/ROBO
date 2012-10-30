@@ -1,0 +1,27 @@
+Robot
+		ID: Sim Model 6_R0
+				Sensor
+						ID: Compass_S0
+						ID: IMU_S0
+						ID: LIDAR_S0
+						ID: GPS_S0
+				Joint
+						ID: Torsion Joint
+						ID: Gyro Joint
+						ID: Drive Joint
+						ID: Joint_J3
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+				Actuator
+						ID: Motor_Drive Joint
+						ID: Motor_Gyro Joint
+						ID: Motor_Torsion Joint
+				Robot Component
+						ID: Bottom Frame
+						ID: Drive Wheel
+						ID: Gyro Wheel
+						ID: Top Frame
+
+
+Obstacle

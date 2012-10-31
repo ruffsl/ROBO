@@ -18,6 +18,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Configure Speed.vi" Type="VI" URL="../../../../../Model/UniCyRO/Configure Speed.vi"/>
+		<Item Name="UniCyRO.lvlib" Type="Library" URL="../../../../../Model/UniCyRO.lvlib"/>
 		<Item Name="UniCyRO_Sim" Type="Robotics Environment Simulator">
 			<Item Name="UniCyRO_Sim ID List.txt" Type="Document" URL="../UniCyRO_Sim ID List.txt"/>
 			<Item Name="UniCyRO_Sim.vi" Type="VI" URL="../UniCyRO_Sim.vi"/>
@@ -25,7 +27,6 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="DC Motor Controller Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/Simulator/DC Motor Controller Simulator.lvclass"/>
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
 				<Item Name="Garmin GPS Series Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Garmin GPS Series/HAIOL/Simulator/Garmin GPS Series Simulator.lvclass"/>
 				<Item Name="Garmin GPS Series.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Garmin GPS Series/HAIOL/Garmin GPS Series.lvclass"/>
@@ -35,6 +36,8 @@
 				<Item Name="Honeywell Compass HMC6343.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Honeywell Compass HMC6343.lvclass"/>
 				<Item Name="Sparkfun Atomic IMU Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Sparkfun Atomic IMU/HAIOL/Simulator/Sparkfun Atomic IMU Simulator.lvclass"/>
 				<Item Name="Sparkfun Atomic IMU.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Sparkfun Atomic IMU/HAIOL/Sparkfun Atomic IMU.lvclass"/>
+				<Item Name="TI MDL BDC24 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/TI MDL BDC24/HAIOL/Simulator/TI MDL BDC24 Simulator.lvclass"/>
+				<Item Name="TI MDL BDC24.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/TI MDL BDC24/HAIOL/TI MDL BDC24.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -135,6 +138,7 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVODE.dll" Type="Document" URL="LVODE.dll">
@@ -144,8 +148,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
-			<Item Name="UniCyRO.lvlib" Type="Library" URL="../../../../../Model/UniCyRO.lvlib"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

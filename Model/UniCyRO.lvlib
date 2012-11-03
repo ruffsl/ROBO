@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="UniCyRO_Host.lvclass" Type="LVClass" URL="../UniCyRO/UniCyRO_Host.lvclass"/>
+	<Item Name="UniCyRO_Host_RealTime.lvclass" Type="LVClass" URL="../UniCyRO/UniCyRO_Host_RealTime.lvclass"/>
 	<Item Name="UniCyRO_Host_Sim.lvclass" Type="LVClass" URL="../UniCyRO/UniCyRO_Host_Sim.lvclass"/>
 </Library>

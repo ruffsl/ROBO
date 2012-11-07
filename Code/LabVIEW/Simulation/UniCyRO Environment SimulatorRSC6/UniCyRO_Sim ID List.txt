@@ -1,5 +1,5 @@
 Robot
-		ID: Sim Model 6_R0
+		ID: Sim Model 7_R0
 				Sensor
 						ID: Compass_S0
 						ID: IMU_S0

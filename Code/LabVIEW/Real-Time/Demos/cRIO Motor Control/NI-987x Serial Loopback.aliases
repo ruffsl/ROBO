@@ -1,0 +1,15 @@
+[My Computer]
+My Computer = "137.112.107.219"
+
+[RT CompactRIO 900x]
+RT CompactRIO 900x = "0.0.0.0"
+
+[RT CompactRIO 901x]
+RT CompactRIO 901x = "0.0.0.0"
+
+[RT CompactRIO Interrupts]
+RT CompactRIO Interrupts = "0.0.0.0"
+
+[UniCyRO]
+UniCyRO = "169.254.66.100"
+

@@ -136,7 +136,7 @@ For information on moving this example to another FPGA target, refer to ni.com/i
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Dynamixel Motor.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Dynamixel Motor.lvlib"/>
+				<Item Name="Alarm Setting.ctl" Type="VI" URL="/&lt;instrlib&gt;/Dynamixel Motor/Public/Motor Operation/Low Level/Alarm Setting.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
@@ -157,7 +157,6 @@ For information on moving this example to another FPGA target, refer to ni.com/i
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -478,8 +477,13 @@ Timeout 60
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Close IMU Connection.vi" Type="VI" URL="../Close IMU Connection.vi"/>
 		<Item Name="FPGA Function.ctl" Type="VI" URL="../FPGA Function.ctl"/>
+		<Item Name="FPGA RoboteQ Driver.vi" Type="VI" URL="../FPGA RoboteQ Driver.vi"/>
 		<Item Name="IMU and RoboteQ.vi" Type="VI" URL="../IMU/IMU and RoboteQ.vi"/>
+		<Item Name="Initialize FPGA.vi" Type="VI" URL="../Initialize FPGA.vi"/>
+		<Item Name="Initialize IMU.vi" Type="VI" URL="../Initialize IMU.vi"/>
+		<Item Name="Queue IMU Readings.vi" Type="VI" URL="../Queue IMU Readings.vi"/>
 		<Item Name="Serial Loopback DMA (Host).vi" Type="VI" URL="../Serial Loopback DMA (Host).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -498,26 +502,11 @@ Timeout 60
 			<Item Name="Get Descriptor Byte.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Get Descriptor Byte.vi"/>
 			<Item Name="Get Euler Angles.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Data/Get Euler Angles.vi"/>
 			<Item Name="Join Numbers.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Data/Join Numbers.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpga_AcknowledgeIrq_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_AcknowledgeIrq_cRIO-9113.vi"/>
-			<Item Name="niLvFpga_WaitOnIrq_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_WaitOnIrq_cRIO-9113.vi"/>
-			<Item Name="niLvFpga_WriteFifo_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_WriteFifo_cRIO-9113.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
 			<Item Name="Set 3DM-GX3-45.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Set 3DM-GX3-45.vi"/>
 			<Item Name="Start Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Start Stream.vi"/>
-			<Item Name="StockFPGA_InlinedAdjustHostInterfaceError.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedAdjustHostInterfaceError.vi"/>
-			<Item Name="StockFPGA_InlinedMethodWaitForSingleIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviMethod/StockFPGA_InlinedMethodWaitForSingleIRQ.vi"/>
-			<Item Name="StockFPGA_InlinedWaitFor1OrMoreIRQs.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedWaitFor1OrMoreIRQs.vi"/>
-			<Item Name="StockFPGA_PlugInOptionalWaitOnIrq.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_PlugInOptionalWaitOnIrq.vi"/>
 			<Item Name="Stop Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Stop Stream.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

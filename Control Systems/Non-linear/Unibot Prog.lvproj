@@ -98,11 +98,72 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/shared/NILVSim.dll"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="SIM trigger type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM trigger type.ctl"/>
+				<Item Name="SIM Instance Name Global.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Instance Name Global.vi"/>
+				<Item Name="Flush And Wait Empty Condition.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Flush And Wait Empty Condition.ctl"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="NILVSim Get Time and IsAcceptedStep.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Utility/Implementation/NILVSim Get Time and IsAcceptedStep.vi"/>
+			<Item Name="SIMPH Param Control Actions.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/Typedefs/SIMPH Param Control Actions.ctl"/>
+			<Item Name="SIMPH Param Source.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/Typedefs/SIMPH Param Source.ctl"/>
+			<Item Name="SIMPH Block.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/Typedefs/SIMPH Block.ctl"/>
+			<Item Name="SIMPH System.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/Typedefs/SIMPH System.ctl"/>
+			<Item Name="_simSolvers.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Scripting/Companion Diagram/SimConfigNode/_simSolvers.ctl"/>
+			<Item Name="NILVSim_InitializeCore.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_InitializeCore.vi"/>
+			<Item Name="SIMSCR Execution Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIMSCR Execution Mode.ctl"/>
+			<Item Name="SimParams.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Scripting/Companion Diagram/SimConfigNode/SimParams.ctl"/>
+			<Item Name="NILVSim_Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_Initialize.vi"/>
+			<Item Name="SIM Trim or Lin Param.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Model Trim and Linearize/SIM Lin Trim Shared.llb/SIM Trim or Lin Param.ctl"/>
+			<Item Name="SIM Integrator distributor (scalar).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/NILVSim Integrator new.llb/SIM Integrator distributor (scalar).vi"/>
+			<Item Name="SIM Integrator collector (scalar).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/NILVSim Integrator new.llb/SIM Integrator collector (scalar).vi"/>
+			<Item Name="SIMPH_Path_Array_To_Dot_Path.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/PathSupport/SIMPH_Path_Array_To_Dot_Path.vi"/>
+			<Item Name="SIMPH Root Simulation Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/HierarchySupport/SIMPH Root Simulation Type.ctl"/>
+			<Item Name="SIMPH Root Simulation Header.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/HierarchySupport/SIMPH Root Simulation Header.ctl"/>
+			<Item Name="SIMPH Get Root Simulation Info.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/HierarchySupport/SIMPH Get Root Simulation Info.vi"/>
+			<Item Name="SIMPH Write Cluster Element Value.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/SIMPH Write Cluster Element Value.vi"/>
+			<Item Name="SIMPH Read Cluster Element Value.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/SIMPH Read Cluster Element Value.vi"/>
+			<Item Name="SIMPH Block Path to Cluster Path.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/PathSupport/SIMPH Block Path to Cluster Path.vi"/>
+			<Item Name="SIMPH_Dot_Path_To_Path_Array.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/PathSupport/SIMPH_Dot_Path_To_Path_Array.vi"/>
+			<Item Name="SIMPH Root Simulation Hierarchy.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/HierarchySupport/SIMPH Root Simulation Hierarchy.ctl"/>
+			<Item Name="SIMPH Global Control Actions.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Param Hierarchy/Typedefs/SIMPH Global Control Actions.ctl"/>
+			<Item Name="SIMSH Listeners Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIMSH Listeners Queue.ctl"/>
+			<Item Name="SIMSH Add or Remove Listener.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIMSH Add or Remove Listener.vi"/>
+			<Item Name="SIMSH Read Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIMSH Read Queue.vi"/>
+			<Item Name="SIM Bundle Sim Info.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Bundle Sim Info.vi"/>
+			<Item Name="NILVSim_GetBlockNameAndCallChain Core.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetBlockNameAndCallChain Core.vi"/>
+			<Item Name="NILVSim_GetBlockNameAndCallChainSizes.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetBlockNameAndCallChainSizes.vi"/>
+			<Item Name="NILVSim_GetSimErrorString.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetSimErrorString.vi"/>
+			<Item Name="NILVSim_GenerateString.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GenerateString.vi"/>
+			<Item Name="NILVSim_GetBlockNameAndCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetBlockNameAndCallChain.vi"/>
+			<Item Name="NILVSim_GetSimErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetSimErrorInfo.vi"/>
+			<Item Name="NILVSim_GetModelError.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_GetModelError.vi"/>
+			<Item Name="SIM BuildSimErr.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM BuildSimErr.vi"/>
+			<Item Name="SIM SourceType String to SrcType.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM SourceType String to SrcType.vi"/>
+			<Item Name="SIM Clock Period From Stepsize.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Clock Period From Stepsize.vi"/>
+			<Item Name="_simSolverEnum2Txt.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Scripting/Companion Diagram/SimConfigNode/_simSolverEnum2Txt.vi"/>
+			<Item Name="_simTxt2SolverEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Scripting/Companion Diagram/SimConfigNode/_simTxt2SolverEnum.vi"/>
+			<Item Name="SIMSCR Method Is Variable Private.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Scripting/Companion Diagram/SimConfigNode/SIMSCR simulationConfigDialog.llb/SIMSCR Method Is Variable Private.vi"/>
+			<Item Name="SIM Timing Source.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Timing Source.ctl"/>
+			<Item Name="SIM Get Timing Sources.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Get Timing Sources.vi"/>
+			<Item Name="SIM Get Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Get Timing Source.vi"/>
+			<Item Name="SIM Unbundle Sim Info.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM Unbundle Sim Info.vi"/>
+			<Item Name="NILVSim_FinalizeModel.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_FinalizeModel.vi"/>
+			<Item Name="NI_SIM_Implementation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NI_SIM_Implementation.lvlib"/>
+			<Item Name="NILVSim_ParamChanged.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim_ParamChanged.vi"/>
+			<Item Name="SIM Integrator (scalar).vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/ContinuousLinear/Implementation/NILVSim Integrator new.llb/SIM Integrator (scalar).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

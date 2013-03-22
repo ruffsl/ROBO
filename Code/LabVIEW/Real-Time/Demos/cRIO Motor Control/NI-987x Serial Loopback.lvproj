@@ -224,7 +224,6 @@ Timeout 60
 			<Item Name="Serial Loopback DMA (Host).vi" Type="VI" URL="../Serial Loopback DMA (Host).vi"/>
 		</Item>
 		<Item Name="FPGA SubVIs" Type="Folder">
-			<Item Name="FPGA Function.ctl" Type="VI" URL="../FPGA Function.ctl"/>
 			<Item Name="FPGA RoboteQ Driver.vi" Type="VI" URL="../FPGA RoboteQ Driver.vi"/>
 			<Item Name="Initialize FPGA.vi" Type="VI" URL="../Initialize FPGA.vi"/>
 		</Item>
@@ -316,7 +315,7 @@ Timeout 60
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
 				<Item Name="9870 Interface DMA (FPGA).vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/CompactRIO/Module Specific/NI 987x/Serial Loopback/VIs/9870 Interface DMA (FPGA).vi">
-					<Property Name="BuildSpec" Type="Str">{6F240196-ED79-466F-8EEC-83C8DB6979EA}</Property>
+					<Property Name="BuildSpec" Type="Str">{F7ADA0B9-683C-48A7-AF32-AC919BDE1C49}</Property>
 					<Property Name="configString.guid" Type="Str">{01706287-CC05-4CEF-B2C6-A0F1E8BFF34B}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=32,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=115.200000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{279A4E0A-8D55-4187-989B-DF59084021C6}cRIO Subresource{2ED742F7-7661-408F-A2F2-51609060E690}cRIO Subresource{51F9A6F2-B6B1-473E-BFD2-2C21576E64A8}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{5BC86BCD-A0CA-4CD3-A949-3456430E6081}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{5D186D2F-C309-4924-A0B4-638D2851C40F}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;READ_FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{61904115-4EB2-42DD-A158-1D11BE19CDB7}cRIO Subresource{748A49A9-1285-4D18-9898-6BCA0D6D353A}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{8325EAC1-6E53-4785-AD79-12CDD2E3B155}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;WRITE_FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{8F78FC2D-5FBD-42BC-99A0-240191D1C9FA}resource=/Chassis Temperature;0;ReadMethodType=i16{9501E9F4-369E-44CD-BC14-C2F731E477A4}cRIO Subresource{C576AB04-4E6D-4EF7-B228-8222A4D7BA4E}resource=/Scan Clock;0;ReadMethodType=bool{CBB6484B-15D7-4DE0-A794-7CCD49CBD200}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EcRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9113/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=32,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=115.200000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceREAD_FIFO"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;READ_FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolWRITE_FIFO"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;WRITE_FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\Spencer\Documents\Courses\Senior Year\Fall Term\ROBO 410\Git Files\ROBO\Code\LabVIEW\Real-Time\Demos\cRIO Motor Control\FPGA Bitfiles\NI-987xSerialLoo_FPGATarget4_9870InterfaceDMA_U4jeboZBP6A.lvbitx</Property>
@@ -466,7 +465,7 @@ Timeout 60
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">9870 Interface DMA (FPGA)</Property>
-						<Property Name="Comp.BitfileName" Type="Str">NI-987xSerialLoo_FPGATarget4_9870InterfaceDMA_lMxNdb7MvEs.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">NI-987xSerialLoo_FPGATarget4_9870InterfaceDMA_U4jeboZBP6A.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -483,7 +482,7 @@ Timeout 60
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2012/examples/CompactRIO/Module Specific/NI 987x/Serial Loopback/NI-987x Serial Loopback.lvproj</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/Spencer/Documents/Courses/Senior Year/Fall Term/ROBO 410/Git Files/ROBO/Code/LabVIEW/Real-Time/Demos/cRIO Motor Control/NI-987x Serial Loopback.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -563,29 +562,53 @@ Timeout 60
 				<Item Name="SIM Query Subsystem.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Model Trim and Linearize/SIM Query Subsystem.llb/SIM Query Subsystem.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="16 Bit Fletcher Checksum.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/16 Bit Fletcher Checksum.vi"/>
 			<Item Name="Build Command.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Build Command.vi"/>
 			<Item Name="Confirm Command.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Confirm Command.vi"/>
 			<Item Name="Desciptor Set Byte.ctl" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/Controls/Desciptor Set Byte.ctl"/>
 			<Item Name="Extract Received Data Set.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Extract Received Data Set.vi"/>
+			<Item Name="FPGA Function.ctl" Type="VI" URL="../FPGA Function.ctl"/>
 			<Item Name="Get Descriptor Byte.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Get Descriptor Byte.vi"/>
 			<Item Name="Get Euler Angles.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Data/Get Euler Angles.vi"/>
 			<Item Name="Join Numbers.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Data/Join Numbers.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpga_AcknowledgeIrq_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_AcknowledgeIrq_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Reset_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Reset_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Run_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Run_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_WaitOnIrq_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_WaitOnIrq_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_WriteFifo_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_WriteFifo_cRIO-9113.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="Set 3DM-GX3-45.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Set 3DM-GX3-45.vi"/>
 			<Item Name="Start Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Start Stream.vi"/>
+			<Item Name="StockFPGA_InlinedAdjustHostInterfaceError.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedAdjustHostInterfaceError.vi"/>
+			<Item Name="StockFPGA_InlinedMethodWaitForSingleIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviMethod/StockFPGA_InlinedMethodWaitForSingleIRQ.vi"/>
+			<Item Name="StockFPGA_InlinedWaitFor1OrMoreIRQs.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedWaitFor1OrMoreIRQs.vi"/>
+			<Item Name="StockFPGA_PlugInOptionalWaitOnIrq.vi" Type="VI" URL="../../../../../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2012/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_PlugInOptionalWaitOnIrq.vi"/>
 			<Item Name="Stop Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Stop Stream.vi"/>
 			<Item Name="Unibot - Linearizer.vi" Type="VI" URL="../Unibot/Unibot - Linearizer.vi"/>
 			<Item Name="Unibot - Nonlinear Model.vi" Type="VI" URL="../Unibot/Unibot - Nonlinear Model.vi"/>
-			<Item Name="Unibot - State Machine Controller.vi" Type="VI" URL="../Unibot/Unibot - State Machine Controller.vi"/>
+			<Item Name="Unibot - State Machine Controller.vi" Type="VI" URL="../../../../../../Control Systems/Non-linear/Unibot - State Machine Controller.vi"/>
 			<Item Name="Unibot - States.ctl" Type="VI" URL="../Unibot/Unibot - States.ctl"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

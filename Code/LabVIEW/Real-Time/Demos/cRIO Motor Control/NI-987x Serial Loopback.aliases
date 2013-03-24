@@ -1,5 +1,9 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "137.112.114.180"
+=======
+My Computer = "137.112.107.176"
+>>>>>>> FPGA Read Added
 
 [RT CompactRIO 900x]
 RT CompactRIO 900x = "0.0.0.0"

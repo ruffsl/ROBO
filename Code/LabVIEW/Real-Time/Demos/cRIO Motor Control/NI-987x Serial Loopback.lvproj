@@ -72,13 +72,7 @@ For information on moving this example to another FPGA target, refer to ni.com/i
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="IMU" Type="Folder">
-			<Item Name="Labview" Type="Folder">
-				<Item Name="Private" Type="Folder"/>
-				<Item Name="Public" Type="Folder">
-					<Item Name="Set Control Effort (Eduardo Bonet&apos;s conflicted copy 2012-05-06).vi" Type="VI" URL="../IMU/Labview/Public/Set Control Effort (Eduardo Bonet&apos;s conflicted copy 2012-05-06).vi"/>
-				</Item>
-				<Item Name="Roboteq.lvlib" Type="Library" URL="../IMU/Labview/Roboteq.lvlib"/>
-			</Item>
+			<Item Name="Labview" Type="Folder"/>
 			<Item Name="LabVIEW Library v2" Type="Folder">
 				<Item Name="AHRS" Type="Folder">
 					<Item Name="Controls" Type="Folder">
@@ -151,6 +145,7 @@ For information on moving this example to another FPGA target, refer to ni.com/i
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+<<<<<<< HEAD
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
@@ -220,6 +215,8 @@ For information on moving this example to another FPGA target, refer to ni.com/i
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Dynamixel Motor.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Dynamixel Motor.lvlib"/>
+=======
+>>>>>>> FPGA Read Added
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
@@ -306,8 +303,10 @@ Timeout 60
 			<Item Name="Serial Loopback DMA (Host).vi" Type="VI" URL="../Serial Loopback DMA (Host).vi"/>
 		</Item>
 		<Item Name="FPGA SubVIs" Type="Folder">
+			<Item Name="RoboteQ VIs" Type="Folder"/>
 			<Item Name="FPGA RoboteQ Driver.vi" Type="VI" URL="../FPGA RoboteQ Driver.vi"/>
 			<Item Name="Initialize FPGA.vi" Type="VI" URL="../Initialize FPGA.vi"/>
+			<Item Name="Read From RoboteQ.vi" Type="VI" URL="../Read From RoboteQ.vi"/>
 		</Item>
 		<Item Name="IMU SubVIs" Type="Folder">
 			<Item Name="Close IMU Connection.vi" Type="VI" URL="../Close IMU Connection.vi"/>
@@ -582,9 +581,11 @@ Timeout 60
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="16 Bit Fletcher Checksum.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/16 Bit Fletcher Checksum.vi"/>
 			<Item Name="Build Command.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Build Command.vi"/>
@@ -599,11 +600,23 @@ Timeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpga_Open_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Open_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Reset_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Reset_cRIO-9113.vi"/>
+			<Item Name="niLvFpga_Run_cRIO-9113.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9113/niLvFpga_Run_cRIO-9113.vi"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="Set 3DM-GX3-45.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/Set 3DM-GX3-45.vi"/>
 			<Item Name="Start Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Start Stream.vi"/>
 			<Item Name="Stop Stream.vi" Type="VI" URL="../IMU/LabVIEW Library v2/AHRS/SubVI/3DM-GX3-45 Commands/Stop Stream.vi"/>
 			<Item Name="Unibot - State Machine Controller.vi" Type="VI" URL="../Unibot/Unibot - State Machine Controller.vi"/>
 			<Item Name="Unibot - States.ctl" Type="VI" URL="../Unibot/Unibot - States.ctl"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

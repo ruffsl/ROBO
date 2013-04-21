@@ -23,7 +23,7 @@
 	</Item>
 	<Item Name="UniCyRO" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">UniCyRO</Property>
-		<Property Name="alias.value" Type="Str">169.254.66.100</Property>
+		<Property Name="alias.value" Type="Str">192.168.100.200</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7459</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>

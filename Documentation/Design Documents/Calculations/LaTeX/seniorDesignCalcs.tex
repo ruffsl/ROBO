@@ -1,0 +1,127 @@
+\documentclass{article} 
+\setlength\parindent{0pt}
+\begin{document}
+
+\section{First Dimension}
+We start by looking at the general form of the Lagrangian equation.  The Lagrangian is used in this application because of its modular nature compared to the conservation principle approach.  If something with the model changes, the overall model can be easily updated.
+
+\begin{equation}
+ L = T - V 
+ \end{equation}
+ 
+ In the Lagrangian, T is the kinetic energy associated with the system. The kinetic energy elements of our system include the rotational energy associated with the wheel spinning, the rotational energy associated with the frame spinning about the wheel, the translational energy associated with the wheel moving in the x direction, and the translational energy with the frame moving in the x direction relative to the movement of the wheel.  These terms are shown below.
+ 
+ Translational energy, Wheel:
+ \begin{equation}
+  \frac{1}{2} (m_{w} \dot{x}^2)
+\end{equation}  
+
+Translational energy, Frame:
+\begin{equation}
+\frac{1}{2} m_{f} (\dot{x}^2 + 2 \dot{x} r_{f} \dot{\alpha} \cos(\alpha)   + r_{f}^2 \dot{\alpha}^2)
+\end{equation}
+
+Rotational energy, Wheel:
+\begin{equation}
+\frac{1}{2} \left(   \frac{I_{wg} \dot{x}^2}     {r_{w}^2  } \right)
+\end{equation}
+
+Rotational energy, Frame:
+\begin{equation}
+\frac{1}{2} (I_{fg} \dot{\alpha}^2 )
+\end{equation}
+
+The resulting expression for T is thus:
+\begin{equation}
+T = \frac{1}{2} (m_{w} \dot{x}^2) + \frac{1}{2} m_{f} (\dot{x}^2 + 2 \dot{x} r_{f} \dot{\alpha} \cos(\alpha)   + r_{f}^2 \dot{\alpha}^2)  + \frac{1}{2} \left(   \frac{I_{wg} \dot{x}^2}     {r_{w}^2  } \right) + \frac{1}{2} (I_{fg} \dot{\alpha}^2 )
+\end{equation}
+
+The V term in the Lagrangian equation is the potential energy of the system.  In this case, this is simply the weight of the frame.
+
+\begin{equation}
+V = m_{f} g r_{f} \cos(\alpha)
+\end{equation}
+
+Combining the two terms to form the Lagrangian results in:
+
+ \begin{equation}
+ L = \frac{1}{2} (m_{w} \dot{x}^2) + \frac{1}{2} m_{f} (\dot{x}^2 + 2 \dot{x} r_{f} \dot{\alpha} \cos(\alpha)   + r_{f}^2 \dot{\alpha}^2)  + \frac{1}{2} \left(   \frac{I_{wg} \dot{x}^2}     {r_{w}^2  } \right) + \frac{1}{2} (I_{fg} \dot{\alpha}^2 ) - m_{f} g r_{f} \cos(\alpha)
+ \end{equation}
+
+The next step is to take the following derivatives and relate them to the virtual work of the system, in this case $\tau$.
+
+\begin{equation}
+ \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\alpha}} \right) - \left( \frac{\partial L}{\partial \alpha} \right) = \tau 
+ \end{equation}
+ 
+ The resulting derivative is shown below:
+
+\begin{equation}
+ \left[ m_{f} r_{f}  ( \ddot{x} \cos(\alpha) - \dot{\alpha} \sin(\alpha) \dot{x}) + m_{f} r_{f}^2 \ddot{\alpha} + I_{fg} \ddot{\alpha} \right] - m_{f} \dot{x} r_{f} \dot{\alpha} \cos(\alpha) = \tau
+ \end{equation}
+
+an expanded form of the previous expression:
+\begin{equation}
+ \ddot{x} m_{f} r_{f} \cos(\alpha) - m_{f} r_{f} \dot{\alpha} \sin(\alpha) \dot{x} + m_{f} r_{f}^2 \ddot{\alpha} + I_{fg} \ddot{\alpha} - m_{f} \dot{x} r_{f} \dot{\alpha} \cos(\alpha) = \tau       
+\end{equation}
+
+Then, this model is put into state space form, the state variables being
+
+\begin{eqnarray}
+z1 &=& x \nonumber \\
+z2 &=& \dot{x} \nonumber \\
+z3 &=& \alpha \nonumber \\
+z4 &=& \dot{\alpha} \nonumber \\
+\end{eqnarray}
+
+The state model is then as follows:
+\begin{eqnarray}
+\dot{z_{1}} &=& z_{2} \nonumber \\
+\dot{z_{2}} &=& \frac{\tau + m_{f} z_{2} r_{f} z_{4}  \cos(z_{3}) + m_{f} r_{f} z_{4} \sin(z_{3}) z_{2}}{m_{f} r_{f} \cos(z_{3})} \nonumber \\
+\dot{z_{3}} &=& z_{4} \nonumber \\
+\dot{z_{4}} &=& \frac{\tau + m_{f} z_{2} r_{f} z_{4} \cos(z_{3}) + m_{f} r_{f} z_{4} sin(z_{3}) z_{2}}{m_{f} r_{f}^2 + I_{fg}} \nonumber \\
+\end{eqnarray}
+
+\newpage
+
+ 
+\section{Second Dimension}
+
+ 
+ 
+\begin{equation}
+T = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta + \frac{1}{2} m_{f} r_{f}^2 \dot{\theta}^2
+\end{equation}
+
+\begin{equation}
+V = m_{f} g L_{1} \cos(\theta) + m_{w} g (L_{1} + L_{2}) \cos(\theta)
+\end{equation}
+
+\begin{equation}
+L = T - V
+\end{equation}
+
+\begin{equation}
+L = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta + \frac{1}{2} m_{f} r_{f}^2 \dot{\theta}^2 - m_{f} g L_{1} \cos(\theta) - m_{w} g (L_{1} + L_{2}) \cos(\theta)
+\end{equation}
+
+\begin{equation}
+\frac{\partial{L}}{\partial{{\theta}}} =  m_{f} g L_{1} \cos(\theta)  m_{w} g (L_{1} + L_{2}) \cos(\theta) + \tau
+\end{equation}
+
+\begin{equation}
+\frac{\partial{L}}{\partial{\dot{\theta}}} = I_{f} \dot{\theta} + m_{f} r_{f}^2 \dot{\theta}
+\end{equation}
+
+\begin{equation}
+\frac{d}{dt} \left(\frac{\partial{L}}{\partial{\dot{\theta}}}\right) = I_{f} \ddot{\theta} + m_{f} r_{f}^2 \ddot{\theta}
+\end{equation}
+
+
+
+\section{Moment of Inertia Calculations}
+
+ 
+ 
+
+\end{document}

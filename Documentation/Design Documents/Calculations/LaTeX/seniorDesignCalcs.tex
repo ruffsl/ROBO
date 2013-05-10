@@ -1,9 +1,20 @@
 \documentclass{article} 
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+
+
 \setlength\parindent{0pt}
 \begin{document}
 
 \section{First Dimension}
 We start by looking at the general form of the Lagrangian equation.  The Lagrangian is used in this application because of its modular nature compared to the conservation principle approach.  If something with the model changes, the overall model can be easily updated.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{systemDescriptioinDiagram}
+\end{figure}
+
 
 \begin{equation}
  L = T - V 
@@ -12,7 +23,7 @@ We start by looking at the general form of the Lagrangian equation.  The Lagrang
  In the Lagrangian, T is the kinetic energy associated with the system. The kinetic energy elements of our system include the rotational energy associated with the wheel spinning, the rotational energy associated with the frame spinning about the wheel, the translational energy associated with the wheel moving in the x direction, and the translational energy with the frame moving in the x direction relative to the movement of the wheel.  These terms are shown below.
  
  Translational energy, Wheel:
- \begin{equation}
+\begin{equation}
   \frac{1}{2} (m_{w} \dot{x}^2)
 \end{equation}  
 
@@ -118,10 +129,64 @@ L = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta
 \end{equation}
 
 
-
+\newpage
 \section{Moment of Inertia Calculations}
+For our system, the moment of inertia was was calculated by combining the moment of inertia of the following elements:
+\begin{itemize}
+\item top wheel
+\item top fork
+\item top fork
+\item junction
+\item IMU
+\item e-stop
+\item power
+\item power
+\item converter
+\item relay
+\item breaker
+\item controller
+\item battery
+\item battery
+\item cRIO
+\item column
+\item bottom junction
+\item bottom fork
+\item bottom fork
+\item bottom wheel
+\end{itemize}
 
+The equations for a moment of inertia in 3d about an axis are 
+\begin{eqnarray}
+I_{h} &=& \frac{1}{12} m(w^2 + d^2) \nonumber \\
+I_{w} &=& \frac{1}{12} m(h^2 + d^2) \nonumber \\
+I_{d} &=& \frac{1}{12} m(h^2 + w^2) \nonumber \\
+\end{eqnarray}
+
+In the system described in section 1, the first dimension has a rotation about the d axis.  The equations above are valid if the elements are rotated about an axis that runs through the center of mass of the element.  The axis of rotation for most of our elements do not run through the center of mass, so to calculate this value, we use the parallel axis theorem.  The parallel axis theorem can determine the moment of inertia about any axis given the moment of inertia about a parallel axis that passes through the center of gravity of the element, and the perpendicular distance between the two axes (r).  
+
+\begin{equation}
+I_{z} = I_cm + mr^2
+\end{equation}
  
- 
+In the 3d case, $r^2$ has two dimensions to it, resulting in an absolute distance from the axis of rotation.  Many of our components are centered directly above the axis of rotation, so the third dimension is 0, but this is still accounted for in our calculation.
+
+The rotation axis of the first dimension is about the axel of the lower motor.  The rotation axis of the 2nd dimension is about the axis running along the length of the wheel where it contacts the ground.
+
+All of the components on our robot were modeled as either rectangular prisms or solid cylinders.
+
+
+For a solid rectangular prism, the equation for the moment of inertia about a given axis with 
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{momentOfInertiaDiagram}
+\end{figure}
+
+
+\newpage
+\section{Suggestions for Improvement}
+As stated in the previous section, all of the components on our robot were modeled as either rectangular prisms or solid cylinders.  This is an extreme simplification, especially in the case of the motors.  If more work was to be done in modeling the system, I would suggest that a more accurate model of the wheels be determined first.
+
+
 
 \end{document}

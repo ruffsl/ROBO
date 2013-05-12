@@ -32,6 +32,8 @@
 %
 %   I - the moment of inertia of the element
 %
+%   *All dimensions are in cm unless otherwise state.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Initialize Script

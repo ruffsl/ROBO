@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.22)  10 MAY 2013 14:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.22)  10 MAY 2013 22:02
 entering extended mode
 **seniorDesignCalcs.tex
 
@@ -141,6 +141,15 @@ LaTeX Font Info:    ... okay on input line 8.
 \makeMPintoPDFobject=\count93
 \everyMPtoPDFconversion=\toks16
 )
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package epstopdf Info: Source file: <systemDescriptioinDiagram.eps>
 (epstopdf)                    date: 2013-05-10 14:51:50
 (epstopdf)                    size: 101325 bytes
@@ -150,31 +159,54 @@ Package epstopdf Info: Source file: <systemDescriptioinDiagram.eps>
 (epstopdf)                    size: 32061 bytes
 (epstopdf)             Command: <epstopdf --outfile=systemDescriptioinDiagram-e
 ps-converted-to.pdf systemDescriptioinDiagram.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<systemDescriptioinDiagram-eps-converted-to.pdf, id=1, 758.835pt x 582.175pt>
+<systemDescriptioinDiagram-eps-converted-to.pdf, id=8, 758.835pt x 582.175pt>
 File: systemDescriptioinDiagram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use systemDescriptioinDiagram-eps-converted-to.pdf>
 Package pdftex.def Info: systemDescriptioinDiagram-eps-converted-to.pdf used on
- input line 15.
-(pdftex.def)             Requested size: 379.41658pt x 291.08679pt.
+ input line 28.
+(pdftex.def)             Requested size: 303.52863pt x 232.86588pt.
+ [2 <C:/Users/collinka/Documents/GitHub/ROBO/Documentation/Design Documents/Cal
+culations/LaTeX/systemDescriptioinDiagram-eps-converted-to.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 39.
 
-Overfull \hbox (34.41658pt too wide) in paragraph at lines 15--16
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
-[1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/collinka/Documen
-ts/GitHub/ROBO/Documentation/Design Documents/Calculations/LaTeX/systemDescript
-ioinDiagram-eps-converted-to.pdf>]
-Overfull \hbox (27.80804pt too wide) detected at line 60
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+
+ []
+
+
+Overfull \hbox (27.80804pt too wide) detected at line 76
 \OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 m[][]\OT1/cmr/m/n/10 )
  + []\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 ([] + 2[]\OML/cmm/m/it/10 r[][] []\OT1
 /cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 r[][]\OT1/c
@@ -183,67 +215,73 @@ mr/m/n/10 ) + [] [] + [](\OML/cmm/m/it/10 I[][]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/
 /10 )
  []
 
-[2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+[4] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 150.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
- [5]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
 Package epstopdf Info: Source file: <momentOfInertiaDiagram.eps>
 (epstopdf)                    date: 2013-05-10 14:57:06
 (epstopdf)                    size: 118425 bytes
 (epstopdf)             Output file: <momentOfInertiaDiagram-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2013-05-10 14:52:46
-(epstopdf)                    size: 23504 bytes
+(epstopdf)                    date: 2013-05-10 14:57:23
+(epstopdf)                    size: 31383 bytes
 (epstopdf)             Command: <epstopdf --outfile=momentOfInertiaDiagram-eps-
 converted-to.pdf momentOfInertiaDiagram.eps>
-(epstopdf)             \includegraphics on input line 182.
-runsystem(epstopdf --outfile=momentOfInertiaDiagram-eps-converted-to.pdf moment
-OfInertiaDiagram.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <momentOfInertiaDiagram-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2013-05-10 14:57:23
-(epstopdf)                    size: 31383 bytes.
-
-<momentOfInertiaDiagram-eps-converted-to.pdf, id=42, 784.9325pt x 531.9875pt>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
+<momentOfInertiaDiagram-eps-converted-to.pdf, id=46, 784.9325pt x 531.9875pt>
 File: momentOfInertiaDiagram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use momentOfInertiaDiagram-eps-converted-to.pdf>
 Package pdftex.def Info: momentOfInertiaDiagram-eps-converted-to.pdf used on in
-put line 182.
-(pdftex.def)             Requested size: 392.46529pt x 265.9931pt.
-
-Overfull \hbox (47.46529pt too wide) in paragraph at lines 182--183
- [][] 
- []
-
-[6 <C:/Users/collinka/Documents/GitHub/ROBO/Documentation/Design Documents/Calc
-ulations/LaTeX/momentOfInertiaDiagram-eps-converted-to.pdf>] [7]
+put line 157.
+(pdftex.def)             Requested size: 313.96744pt x 212.79123pt.
+ [6 <C:/Users/collinka/Documents/GitHub/ROBO/Documentation/Design Documents/Cal
+culations/LaTeX/momentOfInertiaDiagram-eps-converted-to.pdf>] [7] [8]
 ("C:\Users\collinka\Documents\GitHub\ROBO\Documentation\Design Documents\Calcul
 ations\LaTeX\seniorDesignCalcs.aux") ) 
 Here is how much of TeX's memory you used:
- 1504 strings out of 493921
- 22246 string characters out of 3147273
- 80591 words of memory out of 3000000
- 4799 multiletter control sequences out of 15000+200000
- 4245 words of font info for 16 fonts, out of 3000000 for 9000
+ 1525 strings out of 493921
+ 22471 string characters out of 3147273
+ 78591 words of memory out of 3000000
+ 4812 multiletter control sequences out of 15000+200000
+ 7280 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,7n,23p,634b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,7n,23p,634b,214s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on seniorDesignCalcs.pdf (7 pages, 150217 bytes).
+cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on seniorDesignCalcs.pdf (8 pages, 198502 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

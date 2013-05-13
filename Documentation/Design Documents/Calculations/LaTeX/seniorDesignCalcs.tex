@@ -10,7 +10,7 @@
 \begin{titlepage}
 \title{System Description and Modeling of a Self-Balancing Unicycle Robot}
 \author{Kevin Collins \\ Rose-Hulman Institute of Technology \\Designed for National Instruments}
-\date{May 15, 2013}
+\date{May 12, 2013}
 \end{titlepage}
 
 \maketitle
@@ -111,24 +111,29 @@ The state model is then as follows:
 
  
 \section{Second Dimension}
-The second dimension is calculated in a similar manner as the first.  This time, T is computed from the rotation energy 
- 
+The second dimension is calculated in a similar manner as the first.  This time, T is computed from the rotation energy of the top wheel, the translational energy of the top wheel, the rotational energy of the frame, and the translational energy of the frame. 
  
 \begin{equation}
 T = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta + \frac{1}{2} m_{f} r_{f}^2 \dot{\theta}^2
 \end{equation}
 
+V is then the gravitational potential energy of the frame, and the gravitational potential energy of the wheel.
+
 \begin{equation}
 V = m_{f} g L_{1} \cos(\theta) + m_{w} g (L_{1} + L_{2}) \cos(\theta)
 \end{equation}
 
+The Lagrangian is:
 \begin{equation}
 L = T - V
 \end{equation}
 
+Which, when evaluated with the above equations, results in the following:
 \begin{equation}
 L = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta + \frac{1}{2} m_{f} r_{f}^2 \dot{\theta}^2 - m_{f} g L_{1} \cos(\theta) - m_{w} g (L_{1} + L_{2}) \cos(\theta)
 \end{equation}
+
+Taking the partial derivatives results in the following equations:
 
 \begin{equation}
 \frac{\partial{L}}{\partial{{\theta}}} =  m_{f} g L_{1} \cos(\theta)  m_{w} g (L_{1} + L_{2}) \cos(\theta) + \tau
@@ -141,6 +146,13 @@ L = \frac{1}{2} m_{w} \dot{x}^2 + \frac{1}{2} I_{f} \dot{\theta}^2 + \tau \theta
 \begin{equation}
 \frac{d}{dt} \left(\frac{\partial{L}}{\partial{\dot{\theta}}}\right) = I_{f} \ddot{\theta} + m_{f} r_{f}^2 \ddot{\theta}
 \end{equation}
+
+\begin{equation}
+\frac{d}{dt} \left(\frac{\partial{L}}{\partial{\dot{\theta}}}\right) - \frac{\partial{L}}{\partial{\dot{\theta}}} = I_{f} \ddot{\theta} + m_{f} r_{f}^2 \ddot{\theta} -  m_{f} g L_{1} \cos(\theta)  m_{w} g (L_{1} + L_{2}) \cos(\theta) + \tau
+\end{equation}
+
+which is equal to the virtual work of the system.  This equation can then be put into state space form as shown in the first dimension.
+
 
 
 \newpage
@@ -172,19 +184,20 @@ I_{z} = I_cm + mr^2
 
 
  
-In the 3d case, $r^2$ has two vector components to it, resulting in an absolute distance from the axis of rotation.  Many of our components are centered directly above the axis of rotation, so the third dimension is 0, but this is still accounted for in our calculation.
+In the 3d case, $r^2$ has two vector components to it, resulting in an absolute distance from the axis of rotation.  Many of our components are centered directly above the axis of rotation, so the third dimension is 0, but this is still accounted for in our calculation.\\
 
-The rotation axis of the first dimension is about the axle of the lower motor.  The rotation axis of the 2nd dimension is about the axis running along the length of the wheel where it contacts the ground.
+The rotation axis of the first dimension is about the axle of the lower motor.  The rotation axis of the 2nd dimension is about the axis running along the length of the wheel where it contacts the ground.\\
 
-All of the components on our robot were modeled as either rectangular prisms or solid cylinders.
-
+All of the components on our robot were modeled as either rectangular prisms or solid cylinders.\\
 
 For a solid rectangular prism, the equation for the moment of inertia about a given axis with 
 
 
 \newpage
 \section{Suggestions for Improvement}
-As stated in the previous section, all of the components on our robot were modeled as either rectangular prisms or solid cylinders.  This is an extreme simplification, especially in the case of the motors.  If more work was to be done in modeling the system, I would suggest that a more accurate model of the wheels be determined first.
+As stated in the previous section, all of the components on our robot were modeled as either rectangular prisms or solid cylinders.  This is an extreme simplification, especially in the case of the motors.  If more work was to be done in modeling the system, I would suggest that a more accurate model of the wheels be determined first.\\
+
+As far as the second dimension goes, these equations were not verified the same way that the first dimension was.  The equations of motion were derived the same way they were for the first dimension, but they should be verified before deployed in a controller.
 
 
 

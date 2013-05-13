@@ -1,0 +1,9 @@
+[My Computer]
+My Computer = "137.112.107.160"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+
+[UniCyRO]
+UniCyRO = "169.254.66.100"
+
